@@ -1,102 +1,48 @@
-#footer{
+#contact-me{
     display: flex;
+    /* flex-direction: column; */
     justify-content: space-around;
-    margin-top: 30px;
-    margin-bottom: 40px;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    /* align-items: center; */
+    /* width: 80%; */
 }
 
-#contact-form{
+.contact-me-div{
     display: flex;
     flex-direction: column;
-}
-
-#contact-form form{
-    display: flex;
-    flex-direction: column;
-}
-
-#contact-form button{
-    width: 20%;
-    align-self: center;
-    margin-bottom: 20px;
-    border: none;
-    border-radius: 4px;
-    background: linear-gradient(90deg, yellow, red, orange);
-    background-size: 400%;
-    transition: all 0.2s ease-in-out;
-    padding: 10px;
-}
-
-#contact-form button:hover{
-    box-shadow: 0 5px 15px rgb(255, 196, 0);
-}
-
-#contact-form h3{
-    font-size: 25px;
-    margin: 10px;
-}
-
-#contact-form button{
-    font-family: 'Schibsted Grotesk', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-}
-
-#contact-form p{
-    margin: 0px;
-    padding: 10px;
-    font-size: 25px;
-}
-
-input, textarea{
-    margin: 10px;
-    border: none;
-    border-radius: 4px;
-    padding: 5px;
-}
-
-input:focus{
-    outline: none;
-}
-
-textarea:focus{
-    outline: none;
+    /* border: 2px solid red; */
+    /* justify-content: left; */
+    align-items: flex-start;
+    margin-right: 100px;
 }
 
 #image-container{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 20%;
+    /* border: 2px solid red; */
     margin-top: 50px;
 }
 
-#social-media{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-}
-
-#social-media p{
+#contact-me p{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 2px;
 }
 
-#social-media p span{
+#contact-me p span{
     margin: 7px;
     margin-top: 14px;
 }
 
-#social-media p a{
+#contact-me p a{
     text-decoration: none;
     color: #ffffff;
 }
 
-#social-media h2{
+#contact-me h1{
     margin: 0px;
-}
-
-#social-media p{
-    margin: 10px
+    color: #feb313;
 }

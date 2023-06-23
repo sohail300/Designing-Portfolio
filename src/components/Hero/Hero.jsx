@@ -5,16 +5,8 @@ function Hero() {
   return (
     <main>
       <div id="intro-container">
-        <div id="intro">
-          Hi! I am <span id="name">Md Sohail Ansari</span>
-        </div>
-        <button id="download-cv">
-          <a href="https://drive.google.com/file/d/1QcytdcItexq8i_RtHRDtNQPqb0_QDUS1/view?usp=drive_link">
-            Download CV
-          </a>
-        </button>
+      <img src={require("../images/intro.png")} alt="png" />
       </div>
-      <img src={require("../images/hero.png")} alt="Hero png" />
     </main>
   );
 }
