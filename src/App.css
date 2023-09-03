@@ -1,6 +1,8 @@
 body{
-  background-image: linear-gradient(to right, #2d2d2d , #242424);
+  background-image: url(./components/images/513390c5-fe25-4746-b5b2-26c977a37d1e\ -\ Copy.png);
   /* overflow: hidden; */
+  color: white;
+    font-size: 18px;
 }
 
 /* width */

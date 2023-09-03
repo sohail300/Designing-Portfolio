@@ -1,10 +1,13 @@
 import './App.css';
-import Hero from './components/Hero/Hero';
-import Navbar from './components/Navbar/Navbar';
-import LongVideo from './components/LongVideo/LongVideo';
-import Reels from './components/Reels/Reels';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import Thumbnail from './components/Thumbnail';
+import UI from './components/UI';
+import Book from './components/Book';
+import Experience from './components/Experience';
+import Testimonial from './components/Testimonial';
 import Footer from './components/Footer/Footer';
-import Copyright from './components/Copyright/Copyright';
+import Copyright from './components/Copyright';
 
 
 function App() {
@@ -12,8 +15,11 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <LongVideo />
-      <Reels />
+      <Thumbnail/>
+      <UI/>
+      <Book/>
+      <Experience/>
+      <Testimonial/>
       <Footer />
       <Copyright />
     </>
