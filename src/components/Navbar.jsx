@@ -7,9 +7,18 @@ function Navbar() {
         fontWeight: 'bold',
         color: 'white'
     }
+
     const styleLi = {
         marginRight: '30px'
     }
+
+    const styleCV = {
+        textDecoration: 'none',
+        fontFamily: "'Schibsted Grotesk', sans-serif",
+        fontWeight: 'bold',
+        color:"#feb313"
+    }
+
     return (
         <nav style={{
             display: 'flex',
@@ -33,9 +42,11 @@ function Navbar() {
                 marginRight: '30px',
             }}>
                 <li style={styleLi}><a href="#thumbnailContainer" style={styleLinks}>Thumbnail</a></li>
+                <li style={styleLi}><a href="#reelContainer" style={styleLinks}>Reels</a></li>
                 <li style={styleLi}><a href="#UIContainer" style={styleLinks}>UI/UX</a></li>
                 <li style={styleLi}><a href="#bookContainer" style={styleLinks}>Book Cover</a></li>
                 <li style={styleLi}><a href="#contact-me" style={styleLinks}>Contact Me</a></li>
+                <li style={styleLi}><a href="" style={styleCV}>Download CV</a></li>
             </ul>
         </nav>
     );

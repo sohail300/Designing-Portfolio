@@ -20,7 +20,12 @@ function Experience() {
 
       <p>
         <FontAwesomeIcon icon={faStar} style={{ color: "#feb313", marginRight:"10px" }} />
-        Made Thumbnails and edited videos of Youtubers
+        Made Thumbnails and edited videos of Youtubers.
+      </p>
+
+      <p>
+        <FontAwesomeIcon icon={faStar} style={{ color: "#feb313", marginRight:"10px" }} />
+        Made poster for college events. <a href="https://drive.google.com/drive/folders/1vpg4lXj9xnK6TkoflMCYRkLG5lxj05op?usp=drive_link" rel="noreferrer" target="_blank" style={{color:"yellow"}}>Link</a>
       </p>
 </div>
     </div>

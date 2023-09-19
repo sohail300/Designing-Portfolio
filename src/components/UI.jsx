@@ -27,15 +27,24 @@ function UI() {
     }}>
       <h1>UI/UX</h1>
       <div className="project" style={{ display: "flex", justifyContent: "space-around", width: "80%" }}>
-        <img
+      <a href="https://www.figma.com/file/H78dmOBvbKOUBGjQUJawMe/STREEYA-Demo?type=design&node-id=0%3A1&mode=design&t=DR3Ns3hQTl9Z8fcD-1" rel="noreferrer" target="_blank">
+      <img
           src={first}  style={cardStyle} alt=""
         />
+      </a>
+        
+        <a href="https://www.figma.com/file/H78dmOBvbKOUBGjQUJawMe/STREEYA-Demo?type=design&node-id=0%3A1&mode=design&t=DR3Ns3hQTl9Z8fcD-1" rel="noreferrer" target="_blank">
         <img
           src={second}  style={cardStyle} alt=""
         />
+        </a>
+        
+        <a href="https://www.figma.com/file/H78dmOBvbKOUBGjQUJawMe/STREEYA-Demo?type=design&node-id=0%3A1&mode=design&t=DR3Ns3hQTl9Z8fcD-1" rel="noreferrer" target="_blank">
         <img
           src={third}  style={cardStyle} alt=""
         />
+        </a>
+        
       </div>
       </div>
   );
