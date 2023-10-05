@@ -14,7 +14,7 @@ function Copyright() {
             backgroundColor: "rgb(51, 51, 51)",
             marginTop: "25px"
         }}>
-            <p>Copyright © {year} All Rights Reserved Md Sohail Ansari</p>
+            <p style={{margin: "8px" ,padding:"4px"}}>Copyright © {year} All Rights Reserved Md Sohail Ansari</p>
         </div>
     );
 }
