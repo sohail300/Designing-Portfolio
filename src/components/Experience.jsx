@@ -7,7 +7,7 @@ function Experience() {
 
   return (
     <div id="experienceContainer" style={{
-      display: "flex", flexDirection: "column", alignItems: "center", width: "100%", marginTop: "40px", border:"2px solid red"
+      display: "flex", flexDirection: "column", alignItems: "center", width: "100%", marginTop: "40px"
     }}>
 
       <h1 style={{ color: "#feb313" }}>Experience</h1>

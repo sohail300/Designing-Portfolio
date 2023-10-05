@@ -40,9 +40,17 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-}
 
-@media screen and (max-width: 1200px) {
-  body {
+  #image-container a img{
+    height: 200px;
+    width: 200px;
+  }
+
+  #experienceContainer{
+    font-size: 16px;
+  }
+
+  #contact-me{
+    font-size: 16px;
   }
 }
