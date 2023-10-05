@@ -60,10 +60,15 @@ body{
 
   #logo{
     font-size: 100%;
-    /* border: 2px solid red; */
   }
 
   .navbar{
     justify-content: space-between;
+    height: 64px;
+  }
+  
+  .hero-img{
+    height: "210%";
+    width: "100%";
   }
 }
