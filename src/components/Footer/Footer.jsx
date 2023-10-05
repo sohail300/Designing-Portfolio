@@ -19,7 +19,7 @@ function Footer() {
                     <p><span><FiMail /></span><a href="mailto:sohailatwork10@gmail.com">sohailatwork10@gmail.com</a></p>
                 </div>
                 <div id="image-container" style={{ display: "flex", justifyContent: "center", alignContent: "center" }}>
-                    <a style={{ display: "table-cell", color: "#fff" , fontSize:"56px"}} href="https://www.linkedin.com/in/md-sohail-ansari-786123202/" target="_blank" rel="noreferrer" alt="">
+                    <a style={{ display: "table-cell", color: "#fff" , fontSize:"56px"}} href="https://www.linkedin.com/in/md-sohail-ansari-b51201278/" target="_blank" rel="noreferrer" alt="">
                         <CiLinkedin />
                     </a>
 
