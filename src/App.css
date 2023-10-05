@@ -27,3 +27,16 @@ body{
 ::-webkit-scrollbar-thumb:hover {
 	background: rgba(115, 115, 115, 0.993);
 }
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 1200px) {
+  .hidden{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+  }
+}

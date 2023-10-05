@@ -8,7 +8,9 @@ function Copyright() {
             display: 'flex',
             justifyContent: "center",
             alignItems: "center",
-            height: "40px",
+            fontSize:"16px",
+            width:"100%",
+            height: "20%",
             backgroundColor: "rgb(51, 51, 51)",
             marginTop: "25px"
         }}>

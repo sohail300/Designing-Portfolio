@@ -10,15 +10,12 @@ function Thumbnail() {
     justifyContent: 'center',
     alignItems: 'center',
     width: "90%",
-    height: '220px',
+    height: '100%',
     margin: '20px',
     background: 'rgba( 255, 255, 255, 0.25 )',
     boxShadow: '0 8px 32px 0 rgba( 31, 38, 135, 0.37 )',
     backdropFilter: 'blur( 4px )',
-    WebkitBackdropFilter: 'blur(4px)', // Note the capital 'W' in Webkit
-    backdropFilter: 'blur(4px)',
     borderRadius: '3px',
-    // border: '1px solid rgba( 255, 255, 255, 0.18 )'
   }
 
   return (

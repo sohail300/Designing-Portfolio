@@ -16,9 +16,9 @@ function Footer() {
                 <p><span><FiMail /></span><a href="mailto:sohailatwork10@gmail.com">sohailatwork10@gmail.com</a></p>
             </div>
             <div id="image-container">
-                <a href="https://www.linkedin.com/in/md-sohail-ansari-786123202/"><img style={{ height: "50px", width: "50px" }} src={Linkedin} alt="" /></a>
-                <a href="https://twitter.com/sohail_infinity"><img style={{ height: "48px", width: "60px" }} src={Twitter} alt="" /></a>
-                <a href="https://twitter.com/sohail_infinity"><img style={{ height: "52px", width: "50px" }} src={Instagram} alt="" /></a>
+                <a href="https://www.linkedin.com/in/md-sohail-ansari-786123202/"><img style={{ height: "35%", width: "70%", marginRight:"8px" }} src={Linkedin} alt="" /></a>
+                <a href="https://twitter.com/sohail_infinity"><img style={{ height: "35%", width: "90%" }} src={Twitter} alt="" /></a>
+                <a href="https://twitter.com/sohail_infinity"><img style={{ height: "40%", width: "90%" }} src={Instagram} alt="" /></a>
             </div>
         </div>
     );

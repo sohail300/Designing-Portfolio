@@ -21,7 +21,7 @@ function App() {
       <UI/>
       <Book/>
       <Experience/>
-      <Testimonial/>
+      {/* <Testimonial/> */}
       <Footer />
       <Copyright />
     </>
