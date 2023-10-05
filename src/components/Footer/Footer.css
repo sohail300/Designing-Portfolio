@@ -1,7 +1,6 @@
-#contact-me{
+.contact-top{
     display: flex;
-    justify-content: space-around;
-    margin-top: 50px;
+    justify-content: space-between;
 }
 
 .contact-me-div{

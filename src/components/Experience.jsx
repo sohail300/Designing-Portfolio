@@ -6,8 +6,8 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 function Experience() {
 
   return (
-    <div id="thumbnailContainer" style={{
-      display: "flex", flexDirection: "column", alignItems: "center", width: "100%", marginTop: "40px"
+    <div id="experienceContainer" style={{
+      display: "flex", flexDirection: "column", alignItems: "center", width: "100%", marginTop: "40px", border:"2px solid red"
     }}>
 
       <h1 style={{ color: "#feb313" }}>Experience</h1>
