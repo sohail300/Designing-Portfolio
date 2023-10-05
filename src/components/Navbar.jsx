@@ -41,7 +41,8 @@ function Navbar() {
             marginTop: '15px',
             fontSize: "250%",
             paddingBottom: "15px",
-            fontFamily: 'Informal Roman'
+            fontFamily: "'Moon Dance', cursive"
+            // fontFamily: 'Informal Roman'
         }}>
             Sohail
         </span>
