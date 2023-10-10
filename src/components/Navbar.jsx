@@ -60,7 +60,7 @@ function Navbar() {
         <li className="hidden" style={styleLi}><a href="#UIContainer" style={styleLinks}>UI/UX</a></li>
         <li className="hidden" style={styleLi}><a href="#bookContainer" style={styleLinks}>Book Cover</a></li>
         <li className="hidden" style={styleLi}><a href="#contact-me" style={styleLinks}>Contact Me</a></li>
-        <li style={styleLi}><a href="https://drive.usercontent.google.com/download?id=1GoDsfq1mc7z5TFD57Qt0IBesYjHXhyr0&export=download&authuser=1&confirm=t&uuid=69911398-af85-418a-aa77-48aa3ceb1bef&at=APZUnTUlolCFfNtn9MROICSNthv4:1695112537543" target='_blank' rel="noreferrer" style={styleCV}>Download CV</a></li>
+        <li style={styleLi}><a href="https://drive.google.com/file/d/186lEXZ3kciSzEE5RSXDrLOZyq7iHSX_3/view?usp=sharing" target='_blank' rel="noreferrer" style={styleCV}>Download CV</a></li>
         </ul>
         </nav>
     );
