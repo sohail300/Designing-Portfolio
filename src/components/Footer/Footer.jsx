@@ -23,7 +23,7 @@ function Footer() {
                         <CiLinkedin />
                     </a>
 
-                    <a style={{ display: "table-cell", color: "#fff" , fontSize:"56px"}} href="https://twitter.com/sohail_infinity" target="_blank" rel="noreferrer" alt="">
+                    <a style={{ display: "table-cell", color: "#fff" , fontSize:"56px"}} href="https://twitter.com/sohail_twts" target="_blank" rel="noreferrer" alt="">
                         <CiTwitter />
                     </a>
 
