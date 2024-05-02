@@ -1,69 +1,57 @@
-import react from 'react';
+import { HashLink } from "react-router-hash-link";
 
-function Navbar() {
-    const styleLinks = {
-        textDecoration: 'none',
-        fontSize:"100%",
-        fontFamily: "'Schibsted Grotesk', sans-serif",
-        color: 'white'
-    }
-    
-    const styleLi = {
-        marginRight: '30px'
-    }
-
-    const styleCV = {
-        textDecoration: 'none',
-        fontFamily: "'Schibsted Grotesk', sans-serif",
-        fontSize:"100%",
-        fontWeight: 'bold',
-        color: "#feb313"
-    }
-
+const Navbar = () => {
     return (
-        <nav className='navbar' style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            alignContent: 'center',
-            width:"100%",
-            position: 'sticky',
-            top: '0px',
-            zIndex: "10",
-            boxShadow: '1px 1px 5px 0px rgba(0, 0, 0, 0.75)',
-            backdropFilter: 'blur(2px) saturate(130%)',
-            WebkitBackdropFilter: 'blur(2px) saturate(100%)',
-            backgroundColor: 'rgba(10, 10, 10, 0.4)',
-        }}>
-
-        <span id='logo' style={{
-            marginLeft: '55px',
-            marginTop: '15px',
-            fontSize: "250%",
-            paddingBottom: "15px",
-            fontFamily: "'Moon Dance', cursive"
-            // fontFamily: 'Informal Roman'
-        }}>
-            Sohail
-        </span>
-
-        <ul id='nav-links' style={{
-            listStyle: 'none',
-            display: 'flex',
-            justifyContent: 'space-between',
-            marginTop: '15px',
-            marginRight: '30px',
-        }}>
-
-        <li className="hidden" style={styleLi}><a href="#thumbnailContainer" style={styleLinks}>Thumbnail</a></li>
-        <li className="hidden" style={styleLi}><a href="#reelContainer" style={styleLinks}>Reels</a></li>
-        <li className="hidden" style={styleLi}><a href="#UIContainer" style={styleLinks}>UI/UX</a></li>
-        <li className="hidden" style={styleLi}><a href="#bookContainer" style={styleLinks}>Book Cover</a></li>
-        <li className="hidden" style={styleLi}><a href="#contact-me" style={styleLinks}>Contact Me</a></li>
-        <li style={styleLi}><a href="https://drive.google.com/file/d/1F4OKqZaAvI87RG-S9QrOpy78degEbvpl/view?usp=sharing" target='_blank' rel="noreferrer" style={styleCV}>Download CV</a></li>
-        </ul>
-        </nav>
+        <>
+            <div
+                style={{
+                    position: "fixed",
+                    backgroundImage:
+                        "linear-gradient(to bottom right, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1))",
+                    backdropFilter: "blur(10px)",
+                    boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
+                }}
+                className=" w-56 top-0 right-0 z-10 hidden lg:block lg:w-screen"
+            >
+                <ul className="navbar w-4/5 flex flex-col justify-between mx-auto py-4 lg:flex-row ">
+                    <li className=" cursor-pointer heading font-heading mb-4 lg:mb-0">
+                        <HashLink to="#home">Home</HashLink>
+                    </li>
+                    <li className=" cursor-pointer heading font-heading mb-4 lg:mb-0">
+                        <HashLink to="#education">Education</HashLink>
+                    </li>
+                    <li className=" cursor-pointer heading font-heading mb-4 lg:mb-0">
+                        <HashLink to="#reels">Reels</HashLink>
+                    </li>
+                    <li className=" cursor-pointer heading font-heading mb-4 lg:mb-0">
+                        <HashLink to="#thumbnails">Thumbnails</HashLink>
+                    </li>
+                    <li className=" cursor-pointer heading font-heading mb-4 lg:mb-0">
+                        <HashLink to="#designs">Designs</HashLink>
+                    </li>
+                    <li className=" cursor-pointer heading font-heading mb-4 lg:mb-0">
+                        <HashLink to="#book">Book Covers</HashLink>
+                    </li>
+                    <li className=" cursor-pointer heading font-heading mb-4 lg:mb-0">
+                        <HashLink to="#channels">Channels</HashLink>
+                    </li>
+                    <li className=" cursor-pointer heading font-heading mb-4 lg:mb-0">
+                        <HashLink to="#contact">Contact Me</HashLink>
+                    </li>
+                    <li className=" mb-2 lg:mb-0">
+                        <a
+                            href="https://drive.google.com/file/d/1c0vJxevUjXquq9baCrX1dhWJO3LgsQ-r/view?usp=drive_link"
+                            target="_blank" rel="noreferrer"
+                            className=" px-8 py-2 bg-white text-black text-center rounded-md font-semibold"
+                            style={{ color: "#004632" }}
+                        >
+                            View Resume ⚡
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </>
     );
-}
+};
 
 export default Navbar;

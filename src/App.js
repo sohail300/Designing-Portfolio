@@ -3,12 +3,12 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Thumbnail from './components/Thumbnail';
 import Reel from './components/Reel';
-import UI from './components/UI';
 import Book from './components/Book';
-import Experience from './components/Experience';
 import Testimonial from './components/Testimonial';
-import Footer from './components/Footer/Footer';
-import Copyright from './components/Copyright';
+import Contact from './components/Contact';
+import Education from './components/Education';
+import Designs from './components/Designs';
+import Channels from './components/Channels';
 
 
 function App() {
@@ -16,14 +16,14 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Thumbnail/>
+      <Education />
       <Reel/>
-      <UI/>
+      <Thumbnail/>
+      <Designs />
       <Book/>
-      <Experience/>
+      <Channels />
       {/* <Testimonial/> */}
-      <Footer />
-      <Copyright />
+      <Contact />
     </>
   );
 }

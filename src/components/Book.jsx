@@ -1,42 +1,31 @@
-import react, { useState } from "react";
-import Card from "./subcomponents/Card";
-import front from './images/book/front.png';
-import back from './images/book/back.png';
+import { bookCover } from "../utils/bookCover";
 
 function Book() {
-  const cardStyle = {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    width: "85%",
-    height: '460px',
-    margin: '20px',
-    background: 'rgba( 255, 255, 255, 0.25 )',
-    boxShadow: '0 8px 32px 0 rgba( 31, 38, 135, 0.37 )',
-    backdropFilter: 'blur( 4px )',
-    WebkitBackdropFilter: 'blur(4px)', // Note the capital 'W' in Webkit
-    backdropFilter: 'blur(4px)',
-    borderRadius: '5px',
-    // border: '1px solid rgba( 255, 255, 255, 0.18 )'
-  }
 
   return (
-    <div id="bookContainer" style={{
-      display: "flex", flexDirection: "column", alignItems: "center", color: "#feb313", marginTop: "40px"
-    }}>
-      <h1>Book Covers</h1>
-      <div className="project" style={{ display: "flex", justifyContent: "space-around", width: "80%" }}>
-        <a href="https://drive.google.com/drive/folders/16nPJywbDbz65QXvZ9H4uCFeXaCfK4iFf?usp=drive_link" rel="noreferrer" target="_blank">
-        <img
-          src={front} style={cardStyle} alt=""
-        />
-        </a>
-        
-        <a href="https://drive.google.com/drive/folders/16nPJywbDbz65QXvZ9H4uCFeXaCfK4iFf?usp=drive_link" rel="noreferrer" target="_blank">
-        <img
-          src={back} style={cardStyle} alt=""
-        />
-        </a>
+    <div
+      id="book"
+      style={{
+        backgroundImage: "url(https://res.cloudinary.com/dwuzfbivo/image/upload/f_auto/v1711872115/portfolio/grid_ffmr1k.svg)",
+        backgroundPosition: "center",
+      }}
+      className=" flex flex-col z-0 px-8 pb-8 lg:px-24"
+    >
+      <div className=" font-heading text-heading heading text-center">
+        Book Covers
+      </div>
+      <div className=" flex flex-col items-center justify-between sm:flex-row sm:flex-wrap lg:px-32 ">
+        {bookCover.map((item, index) => {
+          return (
+            <a href={item.driveLink} target="_blank" rel="noreferrer" key={index} className="w-full sm:w-1/2 px-0 py-4 sm:px-4 lg:w-1/3">
+              <img
+                src={item.imageLink}
+                alt=""
+                className=" w-3/4 rounded-lg cursor-pointer lg:rounded-md lg:filter lg:grayscale lg:hover:filter-none"
+              />
+            </a>
+          );
+        })}
       </div>
     </div>
   );
